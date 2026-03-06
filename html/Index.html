@@ -18,8 +18,41 @@
         nav{
             text-align: center;
         }
-        table{
-            
+        table,th,td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            width: 40%;
+            height: 60%;
+        }
+        #inicio {
+            background-color: blueviolet;
+            border: 1px;
+            border-radius: 1%;
+            margin-top: 1%;
+        }
+        #Historia {
+            background-color: deeppink;
+            border: 1px;
+            border-radius: 1%;
+            margin-top: 1%;
+        }
+        #Productos {
+            background-color: darkcyan;
+            border: 1px;
+            border-radius: 1%;
+            margin-top: 1%;
+        }
+        #Galeria {
+            background-color: chocolate;
+            border: 1px;
+            border-radius: 1%;
+            margin-top: 1%;
+        }
+        #Contacto {
+            background-color: blueviolet;
+            border: 1px;
+            border-radius: 1%;
+            margin-top: 1%;
         }
     </style>
 </head>
@@ -28,7 +61,7 @@
         <img src="Logo.jpg" alt="">
         
         <nav> <hr>
-            <a href="inicio">inicio</a><a href="Historia">historia</a><a href="Productos">Productos</a><a href="Galeria">Galeria</a><a href="Contacto">Contacto</a>
+            <a href="#inicio">inicio</a><a href="#Historia">historia</a><a href="#Productos">Productos</a><a href="#Galeria">Galeria</a><a href="#Contacto">Contacto</a>
         </nav><hr>
     </head>
     
@@ -170,7 +203,7 @@
             </article>
         </section>
 
-        <section>
+        <section id="Galeria">
             <h2>Galeria de Videojuegos</h2>
             <div>
                 <img src="imagen1.jpg" alt=""><hr><img  src="imagen2.jpg" alt=""><hr><img src="imagen3.jpg" alt=""><hr>
@@ -178,7 +211,7 @@
             </div>
         </section>
 
-        <section>
+        <section id="contacto">
             <h2>Contacto</h2>
             <article>
                 <p>
